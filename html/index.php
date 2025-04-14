@@ -10,12 +10,6 @@
 <body>
     <header>
         <nav>
-        <!-- <ul class="ul">
-                    <li><a class = "link" href="admin_panel.php">Admin</a></li>
-                    <li><a class = "link" href="light-contact.html">Contact</a></li>
-                    <li><a class = "link" href="light-about.html">About</a></li>
-                    <li><a class = "link" href="light-projects.html">Projects</a></li>
-        </ul> -->
             
         </nav>
     </header>
