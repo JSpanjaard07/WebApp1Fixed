@@ -10,18 +10,26 @@
 <body>
     <header>
         <nav>
-            
+            <img src="\img\SushiDaddyLogo.png" alt="Logo" class = "Logo">
+
+
+            <div class="dropdown">
+                <p class ="login">Login</p>
+                <!-- <img src="img/SushiDaddyLogo.png" alt="firstStarsGoose" class = "nine-points"> -->
+                <div class="dropdown-content">
+                    <div class="dropper">
+                        <form action="/php/login.php" method="POST">
+                            <label for="username">Username</label>
+                            <input required type="text" name="username">
+                            <label for="password">Password</label>
+                            <input required type="text" name="password">
+                            <input type="submit" value="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-
-
-    <form action="/php/login.php" method="POST">
-        <label for="username">Username</label>
-        <input required type="text" name="username">
-        <label for="password">Password</label>
-        <input required type="text" name="password">
-        <input type="submit" value="submit">
-    </form>
     
 </body>
 </html>
