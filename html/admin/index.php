@@ -26,6 +26,7 @@ if (!$is_logged_in) {
     <br>
     <!-- for adding products: -->
     <form action="/php/add_menu.php" method="POST">
+        <h1>Add Product:</h1>
         <label for="name">Name</label>
         <input required type="text" name="name">
         <label for="price">Price</label>
@@ -35,29 +36,29 @@ if (!$is_logged_in) {
         <input type="submit" value="submit">
     </form>
     <!-- for modifying products: -->
-    <form method="POST" action="/php/modify.php" class="form center column">
-            <h1 class="form-text center">Modify Product:</h1>
-            <label class="form-text">Product ID:</label>
-            <input type="number" name="id" class="form-box" required>
+    <form method="POST" action="/php/modify.php">
+            <h1>Modify Product:</h1>
+            <label>Product ID:</label>
+            <input type="number" name="id" required>
 
-            <label class="form-text">Product Name:</label>
-            <input type="text" name="name" class="form-box" required>
+            <label>Product Name:</label>
+            <input type="text" name="name" required>
 
-            <label class="form-text">Description:</label>
-            <input name="description" class="form-box-beschrijving"></textar>
+            <label>Description:</label>
+            <input name="description"></textar>
 
-            <label class="form-text">Price:</label>
-            <input type="number" name="price" class="form-box" required>
+            <label>Price:</label>
+            <input type="number" name="price" required>
 
-            <button type="submit" name="add" class="form-knop">Modify!</button>
+            <button type="submit" name="add">Modify!</button>
         </form>
         <!-- for deleting products: -->
         <form method="POST" action="/php/delete.php" class="form center column">
-            <h1 class="form-text center">Delete Product</h1>
-            <label class="form-text">Product ID:</label>
-            <input type="number" name="id" class="form-box" required>
+            <h1>Delete Product:</h1>
+            <label>Product ID:</label>
+            <input type="number" name="id" required>
 
-            <button type="submit" name="delete" class="form-knop">Delete!</button>
+            <button type="submit" name="delete">Delete!</button>
         </form>
     <br>
     <br>

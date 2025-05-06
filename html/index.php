@@ -80,9 +80,9 @@
             </section>
 
         </main>
-        <div class="order">
+        <!-- <div class="order">
             <p>   What would you like to order?</p>
-        </div>
+        </div> -->
     </div>
     <footer>
 
