@@ -26,6 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         ":price" => $price,
         ":description" => $description
     ]);
-
+    
 
 }
+header("../admin/index.php");
