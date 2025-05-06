@@ -81,7 +81,7 @@ main {
     border-style: solid;
     border-color: #000000;
     margin-top: 10px;
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
 .space-between {
@@ -107,12 +107,29 @@ main {
 }
 
 .filteren {
-    width: 100px;
+    width: 200px;
+}
+
+.zoeken {
+    width: 200px;
 }
 
 .bigBody {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: gray;
+}
+
+.order {
+    height: 400px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 10px;
+    margin-right: 50px;
+    justify-content: center;
 }

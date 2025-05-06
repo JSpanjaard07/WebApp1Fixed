@@ -81,7 +81,7 @@
 
         </main>
         <div class="order">
-            <p>waaaa</p>
+            <p>   What would you like to order?</p>
         </div>
     </div>
     <footer>
