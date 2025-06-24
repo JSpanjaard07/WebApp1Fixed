@@ -5,7 +5,7 @@ set_error_handler(function (){});
 $is_logged_in = $_SESSION["logged_in"];
 restore_error_handler();
 
-if (!$is_logged_in) {
+if (!$_SESSION["is_logged_in"]) {
     die("Get out of my swamp!");
 }
 

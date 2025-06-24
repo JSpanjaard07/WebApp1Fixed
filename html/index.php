@@ -41,7 +41,7 @@ $template = '
     <header>
         <nav>
             <img src="/img/SushiDaddyLogo.png" alt="Logo" class="Logo">
-
+            <a href="admin/index.php" class="Items">Home</a>
             <div class="dropdown">
                 <p class="login">Menu</p>
                 <div class="dropdown-content">
