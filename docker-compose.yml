@@ -18,7 +18,7 @@ services:
   db:
     # Bart beun oplossing voor MAC OS
     # platform: linux/x86_64
-    image: mysql:5.7
+    image: mariadb:latest
     container_name: mysql_db
     restart: always
     environment:
@@ -34,7 +34,7 @@ services:
     container_name: phpmyadmin
     restart: always
     ports:
-      - "8081:80"
+      - "8080:80"
     environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: rootpassword
